@@ -1,0 +1,5 @@
+AI Coding Lab - Task 2 Debugging Note
+Student: Shubham Mane (Student #01)
+Course: Unit 3: AI Applications (CO3 - P)
+
+Note: I intentionally renamed the physics function 'calculateParticleKinematics' to 'calcPartKin' inside the particle update loop, triggering an uncaught ReferenceError in the browser console, which the AI immediately spotted by cross-referencing the stack trace with the original function definition and restoring the correct identifier.
